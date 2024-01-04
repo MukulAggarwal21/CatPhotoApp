@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo APP</title>
+</head>
+<body>
+    <main>
+    <h1>CATS PHOTO APP</h1>
+    <section>
+        <h2>Cat Photos</h2>
+      <p>See More <a  target="_blank" href="https://www.pexels.com/search/cats/" >cat photos</a> on this page </p> 
+      <img src="Cat image.jpg"  alt="A Cute Cat Staring At You" width="150" height="150">
+ 
+    </section>
+    <section>
+        <h2> Cat Lists</h2>
+        <ul>
+            <li>Cat nip</li>
+            <li>Grooming</li>
+            <li>Sitting on Windowsills</li>
+            <li>laser pointers</li>
+            <li>Lasagana</li>
+        </ul>
+        <img src="Delicious lasagana.jpg" alt="Delicious Lasagana" width="150" height="150">
+        <figcaption>Delicious Lasagana</figcaption>
+    </section>
+    <section>
+        <h2>Top Three Things Cat Hate</h2>
+        <ol>
+            <li>Flea Treatment</li>
+            <li>Thunder</li>
+            <li>Other Cats</li>
+        </ol>
+        <img src="cat group.jpg" alt="A Group of Cats"width="150" height="150">
+        <figcaption>Annoying Group of Cats </figcaption>
+    </section>
+    <h2>Cat Form</h2>
+    <form  action=""  method="post" autocomplete="off">
+    <fieldset>
+<legend>Is your cat an indoor or outdoor cat</legend>
+<input type="radio" id="Indoor" name=" Indoor-Outdoor" value="Indoor">
+<label for="Indoor">Indoor</label>
+<input type="radio"  id=" Outdoor" name=" Indoor-Outdoor">
+<label for="Outdoor">Outdoor</label>
+    </fieldset>
+    <br>
+<fieldset>
+    <legend>What's your Cat Personality</legend>
+    <input type="checkbox" id="Loving" name="Personality" value="Loving">
+    <label for="Loving">Loving</label>
+    <input type="checkbox" id="Lazy" value="Lazy" name="Personality">
+    <label for="Lazy">Lazy</label>
+    <input type="checkbox" id="Energetic" value="Energetic" name="Personality">
+    <label for="Energetic">Energetic</label>
+</fieldset>
+<br>
+<input type="text" name="catphotourl" placeholder="cat photo URL"  required>
+<button type="submit">Submit</button>
+</form>
+    </main>
+</body>
+</html>
